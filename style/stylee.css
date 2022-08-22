@@ -1,0 +1,112 @@
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #16161D;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #38384e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4D4873;
+}
+
+/* NAV */
+
+.btn:focus {
+     box-shadow: none;
+ }
+
+.btn{
+    box-shadow: none;
+    font-size: 1.2rem;
+}
+
+.gr{
+    background-color: #16161D ;
+}
+
+.dropdown-menu{
+    background-color: #16161D;
+    border: 0;
+}
+
+.dropdown-toggle{
+     color: aliceblue;
+ }
+
+.dropdown-toggle:hover{
+    color: rgb(110, 105, 161);
+    font-weight: bold;
+}
+
+.gr:hover{
+    background-color: #16161D ;
+}
+
+.gr a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.gr a:hover{
+    color: rgb(110, 105, 161);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* GENERAL */
+
+p{
+    color: aliceblue;
+}
+
+body{
+    background-color: #16161D;
+}
+
+body h1, h2, h3, h4, h5{
+    color: aliceblue;
+}
+
+/* PAGE 1 */
+
+.fongri{
+    background-color: #38384e;
+    display: flex;
+    justify-content: space-between;
+}
+
+.twi{
+    color: rgb(0,172,238);
+    font-weight: bold;
+}
+.twi:hover{
+    color: rgb(77, 72, 115);
+    text-decoration: none;
+}
+
+.karm{
+    color: rgb(0,172,238);
+    font-weight: bold;
+}
+
+.karm:hover{
+    color: rgb(77, 72, 115);
+    text-decoration: none;
+}
+
+.vid{
+    height: 100%;
+}
+
+.imgg{
+    max-width:100%;
+    max-height:100%;
+    height: auto;
+}
